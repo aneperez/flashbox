@@ -100,7 +100,7 @@
 
 .container-justify-flex-start{
     display: flex;
-    flex direction: row;
+    flex-direction: row;
     justify-content: flex-start;
     background-color: purple;
     padding: 16px;
@@ -109,7 +109,7 @@
 
 .container-justify-flex-end{
     display: flex;
-    flex direction: row;
+    flex-direction: row;
     justify-content: flex-end;
     background-color: purple;
     padding: 16px;
@@ -118,7 +118,7 @@
 
 .container-justify-space-between{
     display: flex;
-    flex direction: row;
+    flex-direction: row;
     justify-content: space-between;
     background-color: olive;
     padding: 16px;
@@ -127,7 +127,7 @@
 
 .container-justify-space-around{
     display: flex;
-    flex direction: row;
+    flex-direction: row;
     justify-content: space-around;
     background-color: brown;
     padding: 16px;
@@ -136,10 +136,41 @@
 
 .container-justify-space-evenly{
     display: flex;
-    flex direction: row;
+    flex-direction: row;
     justify-content: space-evenly;
     background-color: green;
     padding: 16px;
     height: 500px;
 }
 
+/*align-items: alinha os objetos no eixo secundário*/
+
+.container-align-items-center{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-items-flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: Navy;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-items-flex-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: lime;
+    padding: 16px;
+    height: 500px;
+}
